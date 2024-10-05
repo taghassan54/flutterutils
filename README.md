@@ -34,3 +34,11 @@
           polyLines.add(polyline);
         }
 ```
+
+### fix ios devices not showing in android studio 
+
+```
+ sudo xcode-select --switch /Volumes/2tb/Applications/Xcode.app/Contents/Developer
+
+sudo xcodebuild -runFirstLaunch
+```
