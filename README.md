@@ -42,3 +42,8 @@
 
 sudo xcodebuild -runFirstLaunch
 ```
+
+### start logcat 
+```
+adb logcat | grep flutter
+```
